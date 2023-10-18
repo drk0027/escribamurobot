@@ -1,0 +1,21 @@
+{
+  "name": "escriba_murobot",
+  "version": "0.0.1",
+  "description": "El escriba del muro es un bot diseñado para servir de escriba del canal «Muro de escritores», el cual tiene como fin, servir de un muro para publicar anuncios de escritores, bajo la premisa de que una plataforma social se basa en su potencial para obligar a sus usuarios a tener un punto en comun para reunirse y recibir actualizaciones de estados de los demas usuarios. En este caso, un canal permitiria a los usuarios tener que unirse al canal para poder publicar en el, por lo que recibira las notificaciones de los demas que tambien esten subscritos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram"
+  ],
+  "author": "drk0027",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "grammy": "^1.16.1",
+    "sequelize": "^6.31.1",
+    "sqlite3": "^5.1.6"
+  }
+}
