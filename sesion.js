@@ -1,7 +1,6 @@
 const sequelize = require("./sequelize")
 const { Op } = require("sequelize");
 const { Bot } = require("grammy");
-const bot = new Bot("6190666166:AAFEwifGX3DTlHlC4kZfJeorRDJRvHGUij4");
 
 class sesion {
 	constructor(){
